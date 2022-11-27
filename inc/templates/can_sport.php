@@ -1,50 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-		<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<title>Can'Sport</title>
-	</head>
-	<body>
-		<nav>
-			<div class="conteneur-nav">
-				<div class="logo">
-					<h1><a href="#"><img src="img/logo-cansport.png" alt="Can sport"></a></h1>
-				</div>
-				<ul class="nav-links">
-					<li class="presentation"><a href="#presentation">Présentation</a></li> 	<!-- Présentation du club + Les services en bref +les points fort de la salle ex: douche individuelle... -->
-					<li class="abonnements"><a href="#">Abonnements</a></li>				<!-- Sur une autre page avec un "tableau" sympa -->
-					<!-- Quelque photos de la salle -->
-					<li class="activites"><a href="#activites">Activités</a></li>			<!-- Description des activités : images + texte avec un %2 -->
-					<li class="our-team"><a href="#our-team">Notre team</a></li>			<!-- NABIL + MANU + ??, Faire des cartes de présentation-->
-					<li class="planning"><a href="#planning">Planning</a></li>				<!-- Emploie du temps horaire + logo + code couleur-->
-					<!-- Afficher des avis -->
-					<li class="contact"><a href="#contact">Contact</a></li>					<!-- MAP avec eau verte + Contact: mail, tel, adresse + crédit -->
-				</ul>
-				<ul class="nav-links">
-					<li class="logo-nav">
-						<a href="https://www.instagram.com/cansportgym/" target="_blanc">
-							<div class="insta">
-								<img src="img/instagram.png" alt="instagram_before">
-								<img src="img/instagram_after.png" class="img_after" alt="instagram_after">
-							</div>
-						</a>
-					</li>
-					<li class="logo-nav">
-						<a href="tel:+33493395159">
-							<div class="tel">
-								<img src="img/tel.png" alt="tel_before">
-								<img src="img/tel_after.png" class="img_after" alt="tel_after">
-							</div>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
 		<header>
 			<div class="video"><!-- monter une vidéo + Ajouter (Motivation + Présentation) -->
 				<div class="header-inner">
@@ -53,7 +6,7 @@
 					<br>
 					<p class="header-content horaire"><span>Ouvert 7j/7 de 6h à 22h</span></p>
 				</div>
-				<video autoplay="autoplay" muted="" loop="infinite" src="file.mp4"></video>
+				<video autoplay="autoplay" muted="" loop="infinite" src="./assets/img/file.mp4"></video>
 			</div>
 		</header>
 		<div id="presentation">
@@ -70,26 +23,34 @@
 									<strong>Salle de sport | Independante</strong>
 									</h2>
 									<p>
-										Can'sport est une salle independante, Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-										proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										Can’sport c’est une entreprise à taille humaine, une équipe de professionnel est là pour vous accompagner et vous permettre de vous sentir mieux dans votre corps comme dans votre esprit.<br><br>
+
+										Venir dans notre Club c’est faire le choix d’évoluer dans une atmosphère conviviale et chaleureuse. <br><br>
+
+										Vous vous y sentirez à l’aise et vous serrez amener à faire de belles rencontres.
+										Can’Sport est une salle de sport dont l’esprit sportif est avant tout basé sur la simplicité et la convivialité. Chacun s’entraîne dans une ambiance amicale et décontractée sans l’égocentricité qu’on peut parfois rencontrer.
+
+										A Can’Sport vous serez accompagné tout au long de votre parcours. Besoin de conseils, de changer d’entraînement, d’un coup de pouce ? L’équipe Can’Sport est à votre écoute et  à votre disposition.
+
+
+										Can’Sport a été repensé et rééquipé pour répondre aux besoins des sportifs de tout niveau : du débutant au bodybuilder.
+
+										Le club compte un large plateau de cardio-training, un espace musculation « guidée », un espace poids-libres, une salle de cours collectif.
+
 									</p>
 								</div>
 								<div class="resume-img">
-									<a class="photos" href="img/espace-muscu.jpg" data-lightbox="gallery">
-										<img src="img/espace-muscu.jpg">
+									<a class="photos" href="./assets/img/espace-muscu.jpg" data-lightbox="gallery">
+										<img src="./assets/img/espace-muscu.jpg">
 									</a>
-									<a class="photos" href="img/espace-cardio.jpg" data-lightbox="gallery">
-										<img src="img/espace-cardio.jpg">
+									<a class="photos" href="./assets/img/espace-cardio.jpg" data-lightbox="gallery">
+										<img src="./assets/img/espace-cardio.jpg">
 									</a>
-									<a class="photos" href="img/espace-muscu.jpg" data-lightbox="gallery">
-										<img src="img/espace-muscu.jpg">
+									<a class="photos" href="./assets/img/espace-muscu.jpg" data-lightbox="gallery">
+										<img src="./assets/img/espace-muscu.jpg">
 									</a>
-									<a class="photos" href="img/espace-cardio.jpg" data-lightbox="gallery">
-										<img src="img/espace-cardio.jpg">
+									<a class="photos" href="./assets/img/espace-cardio.jpg" data-lightbox="gallery">
+										<img src="./assets/img/espace-cardio.jpg">
 									</a>
 								</div>
 							</div>
@@ -102,7 +63,7 @@
 								<div class="card">
 									<div class="face face1">
 										<div class="content">
-											<img src="img/arm.svg">
+											<img src="./assets/img/arm.svg">
 											<h4>Musculation</h4>
 										</div>
 									</div>
@@ -120,7 +81,7 @@
 								<div class="card">
 									<div class="face face1">
 										<div class="content">
-											<img src="img/bosu-ball.svg">
+											<img src="./assets/img/bosu-ball.svg">
 											<h4>Cours collectifs</h4>
 										</div>
 									</div>
@@ -138,7 +99,7 @@
 								<div class="card">
 									<div class="face face1">
 										<div class="content">
-											<img src="img/yoga.svg">
+											<img src="./assets/img/yoga.svg">
 											<h4>Yoga</h4>
 										</div>
 									</div>
@@ -156,7 +117,7 @@
 								<div class="card">
 									<div class="face face1">
 										<div class="content">
-											<img src="img/punching-bag.svg">
+											<img src="./assets/img/punching-bag.svg">
 											<h4>Boxe tailandaise</h4>
 										</div>
 									</div>
@@ -174,7 +135,7 @@
 								<div class="card">
 									<div class="face face1">
 										<div class="content">
-											<img src="img/list.svg">
+											<img src="./assets/img/list.svg">
 											<h4>Coaching</h4>
 										</div>
 									</div>
@@ -192,7 +153,7 @@
 								<div class="card">
 									<div class="face face1">
 										<div class="content">
-											<img src="img/exercise-bike.svg">
+											<img src="./assets/img/exercise-bike.svg">
 											<h4>Cardio</h4>
 										</div>
 									</div>
@@ -214,32 +175,32 @@
 							<div class="secondary-information">
 
 								<div class="content">
-									<img src="img/shower.svg" alt="douche">
+									<img src="./assets/img/shower.svg" alt="douche">
 									<p>Douches individuelles</p>
 								</div>
 
 								<div class="content">
-									<img src="img/parking.svg" alt="parking">
+									<img src="./assets/img/parking.svg" alt="parking">
 									<p>Parking</p>
 								</div>
 
 								<div class="content">
-									<img src="img/snowflake.svg" alt="climatisation">
+									<img src="./assets/img/snowflake.svg" alt="climatisation">
 									<p>Climatisation</p>
 								</div>
 
 								<div class="content">
-									<img src="img/spray-bottle.svg" alt="covid">
+									<img src="./assets/img/spray-bottle.svg" alt="covid">
 									<p>Produit désinfectant</p>
 								</div>
 
 								<div class="content">
-									<img src="img/gymnast-mat.svg" alt="serviettes">
+									<img src="./assets/img/gymnast-mat.svg" alt="serviettes">
 									<p>Location de serviettes</p>
 								</div>
 
 								<div class="content">
-									<img src="img/locker.svg" alt="casier">
+									<img src="./assets/img/locker.svg" alt="casier">
 									<p>Casiers individuels</p>
 								</div>
 							</div>
@@ -251,50 +212,50 @@
 
 								<div class="item-strong-points">
 									<button class="btn draw-border">
-										<img src="img/brawn.svg" alt="Coach">
+										<img src="./assets/img/brawn.svg" alt="Coach">
 										Coach Particulier
 									</button>
 								</div>
 
 								<div class="item-strong-points">
 									<button class="btn draw-border">
-										<img src="img/fresh-juice.svg" alt="chill">
+										<img src="./assets/img/fresh-juice.svg" alt="chill">
 										Espace Détente
 									</button>
 								</div>
 
 								<div class="item-strong-points">
 									<button class="btn draw-border">
-										<img src="img/heart.svg" alt="workout">
+										<img src="./assets/img/heart.svg" alt="workout">
 										Cours Collectifs
 									</button>
 								</div>
 
 								<div class="item-strong-points">
 									<button class="btn draw-border">
-										<img src="img/waist.svg" alt="alimentation">
+										<img src="./assets/img/waist.svg" alt="alimentation">
 										Rééquilibrage Alimentaire
 									</button>
 								</div>
 
 								<div class="item-strong-points">
 									<button class="btn draw-border">
-										<img src="img/phytonutrients.svg" alt="shaker">
+										<img src="./assets/img/phytonutrients.svg" alt="shaker">
 										Shaker Bar
 									</button>
 								</div>
 
 								<div class="item-strong-points">
 									<button class="btn draw-border">
-										<img src="img/smiley.svg" alt="ambiance">
+										<img src="./assets/img/smiley.svg" alt="ambiance">
 										Ambiance Familiale
 									</button>
 								</div>
 
 								<div class="item-strong-points">
 									<button class="btn draw-border">
-										<img src="img/availability.svg" alt="ouvert">
-										Ouvert 7/7j Fériés compris
+										<img src="./assets/img/availability.svg" alt="ouvert">
+										Ouvert 7/7j <br>6/22H
 									</button>
 								</div>
 							</div>
@@ -326,7 +287,7 @@
 									</p>
 								</div>
 								<div class="activite-img">
-									<img src="img/espace-muscu.jpg">
+									<img src="./assets/img/espace-muscu.jpg">
 								</div>
 							</div>
 						</div>
@@ -349,7 +310,7 @@
 									</p>
 								</div>
 								<div class="activite-img">
-									<img src="img/espace-cardio.jpg">
+									<img src="./assets/img/espace-cardio.jpg">
 								</div>
 							</div>
 						</div>
@@ -379,8 +340,6 @@
 				<article>
 					<h2>
 						Notre team
-						<br>
-						<strong>Sous titre</strong>
 					</h2>
 						<div class='our-team-content'>
 							<div class="card">
@@ -391,7 +350,7 @@
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 									consequat.</p>
 							</div>
-								<img src="img/aled.png">
+								<img src="./assets/img/aled.png">
 							</div>
 
 							<div class="card">
@@ -402,7 +361,7 @@
 									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 									consequat.</p>
 							</div>
-								<img src="img/aled.png">
+								<img src="./assets/img/aled.png">
 							</div>
 						</div>
 				</article>
@@ -429,35 +388,35 @@
 							<tbody>
 								<tr>
 									<td>
-										<img src="img/dancing.svg">
+										<img src="./assets/img/dancing.svg">
 										<div class="content">
 											<p>9:30-10:00</p>
 											<p>Zumba</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>10:00-11:00</p>
 											<p>Posture</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/arm.svg">
+										<img src="./assets/img/arm.svg">
 										<div class="content">
 											<p>10:00-11:00</p>
 											<p>Body sculp</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/arm.svg">
+										<img src="./assets/img/arm.svg">
 										<div class="content">
 											<p>10:00-10:45</p>
 											<p>Body sculp</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/waist-planning.svg">
+										<img src="./assets/img/waist-planning.svg">
 										<div class="content">
 											<p>10:00-10:30</p>
 											<p>CTAF</p>
@@ -471,21 +430,21 @@
 									<td></td>
 									<td></td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>10:45-11:30</p>
 											<p>Posture</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>10:30-11:00</p>
 											<p>Streatching</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>10:30-12:00</p>
 											<p>Yoga</p>
@@ -496,35 +455,35 @@
 
 								<tr>
 									<td>
-										<img src="img/fitness-bracelet.svg">
+										<img src="./assets/img/fitness-bracelet.svg">
 										<div class="content">
 											<p>12:30-13:15</p>
 											<p>Strong Girl</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/waist-planning.svg">
+										<img src="./assets/img/waist-planning.svg">
 										<div class="content">
 											<p>12:30-13:15</p>
 											<p>CTAF</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/stopwatch.svg">
+										<img src="./assets/img/stopwatch.svg">
 										<div class="content">
 											<p>12:30-13:15</p>
 											<p>Bike</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/arm.svg">
+										<img src="./assets/img/arm.svg">
 										<div class="content">
 											<p>12:30-13:15</p>
 											<p>Body Sclupt</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>12:30-13:15</p>
 											<p>Posture</p>
@@ -535,35 +494,35 @@
 								</tr>
 								<tr>
 									<td>
-										<img src="img/waist-planning.svg">
+										<img src="./assets/img/waist-planning.svg">
 										<div class="content">
 											<p>18:00-18:45</p>
 											<p>Abdos/Fessiers</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>18:00-18:30</p>
 											<p>Pilate</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/stopwatch.svg">
+										<img src="./assets/img/stopwatch.svg">
 										<div class="content">
 											<p>18:00-18:45</p>
 											<p>Bike</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/dancing.svg">
+										<img src="./assets/img/fitness-bracelet.svg">
 										<div class="content">
 											<p>18:00-18:45</p>
-											<p>Can’Dance</p>
+											<p>Attack</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/arm.svg">
+										<img src="./assets/img/arm.svg">
 										<div class="content">
 											<p>18:00-18:45</p>
 											<p>Body Sculp</p>
@@ -574,35 +533,35 @@
 								</tr>
 								<tr>
 									<td>
-										<img src="img/stopwatch.svg">
+										<img src="./assets/img/stopwatch.svg">
 										<div class="content">
 											<p>18:45-19:30</p>
 											<p>Bike</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/arm.svg">
+										<img src="./assets/img/arm.svg">
 										<div class="content">
 											<p>18:30-19:15</p>
 											<p>Body Barre</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/waist-planning.svg">
+										<img src="./assets/img/waist-planning.svg">
 										<div class="content">
 											<p>18:45-19:30</p>
 											<p>Booty Work</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/arm.svg">
+										<img src="./assets/img/arm.svg">
 										<div class="content">
 											<p>18:45-19:30</p>
 											<p>Body Barre</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>18:45-20:00</p>
 											<p>Yoga</p>
@@ -610,7 +569,7 @@
 									</td>
 									<td></td>
 									<td>
-										<img src="img/punching-bag-1.svg">
+										<img src="./assets/img/punching-bag-1.svg">
 										<div class="content">
 											<p>18:00-19:30</p>
 											<p>Boxe Découverte</p>
@@ -621,7 +580,7 @@
 									<td></td>
 									<td></td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>19:00-20:30</p>
 											<p>Sunset Yogapero</p>
@@ -634,28 +593,28 @@
 								</tr>
 								<tr>
 									<td>
-										<img src="img/fitness-bracelet.svg">
+										<img src="./assets/img/fitness-bracelet.svg">
 										<div class="content">
 											<p>19:30-20:30</p>
 											<p>Cross Traning</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/waist-planning.svg">
+										<img src="./assets/img/waist-planning.svg">
 										<div class="content">
 											<p>19:15-20:00</p>
 											<p>Booty Work</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>19:30-20:00</p>
 											<p>Stretching</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/waist-planning.svg">
+										<img src="./assets/img/waist-planning.svg">
 										<div class="content">
 											<p>19:30-20:00</p>
 											<p>CTAF</p>
@@ -668,28 +627,28 @@
 								<tr>
 									<td></td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>20:00-20:30</p>
 											<p>Stretching</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/punching-bag-1.svg">
+										<img src="./assets/img/punching-bag-1.svg">
 										<div class="content">
 											<p>20:00-21:30</p>
 											<p>Boxe Découverte</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/lungs.svg">
+										<img src="./assets/img/lungs.svg">
 										<div class="content">
 											<p>20:00-20:30</p>
 											<p>Stretching</p>
 										</div>
 									</td>
 									<td>
-										<img src="img/punching-bag-1.svg">
+										<img src="./assets/img/punching-bag-1.svg">
 										<div class="content">
 											<p>20:00-21:30</p>
 											<p>Boxe Découverte</p>
@@ -702,31 +661,31 @@
 						</table>
 						<div class="legend">
 							<div class="content">
-								<img src="img/arm.svg">
+								<img src="./assets/img/arm.svg">
 								<p>Renfo musculaire général</p>
 							</div>
 							<div class="content">
-								<img src="img/fitness-bracelet.svg">
+								<img src="./assets/img/fitness-bracelet.svg">
 								<p>Cardio & refo haute intensité</p>
 							</div>
 							<div class="content">
-								<img src="img/lungs.svg">
+								<img src="./assets/img/lungs.svg">
 								<p>Gym douce, bien être santé</p>
 							</div>
 							<div class="content">
-								<img src="img/waist-planning.svg">
+								<img src="./assets/img/waist-planning.svg">
 								<p>Renfo musculaire ciblé sur les cuisses, le centre du corps et les fessiers</p>
 							</div>
 							<div class="content">
-								<img src="img/stopwatch.svg">
+								<img src="./assets/img/stopwatch.svg">
 								<p>Pure cardio</p>
 							</div>
 							<div class="content">
-								<img src="img/punching-bag-1.svg">
+								<img src="./assets/img/punching-bag-1.svg">
 								<p>Découverte des diciplines de combats type boxe, pieds poings et thailandaise</p>
 							</div>
 							<div class="content">
-								<img src="img/dancing.svg">
+								<img src="./assets/img/dancing.svg">
 								<p>Dance</p>
 							</div>
 						</div>
@@ -734,82 +693,3 @@
 				</article>
 			</section>
 		</div>
-		<footer>
-			<div id="contact">
-				<section>
-					<article class="contact-footer">
-						<div class="content">
-							<h2>Contact</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-						</div>
-						<!-- POURQUOI NOUS Les activités en "GROS" +  les points forts ...... le mettre en footer -->
-						<!-- <div>
-							Icons made by <a href="https://www.freepik.com" title="Freepik" target="_blanc">Freepik</a> and <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev" target="_blanc">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blanc">www.flaticon.com</a>
-							<br>
-							LightBox made by <a href="https://lokeshdhakar.com/" target="_blanc">Lokesh Dhakar</a> (<a href="license/LICENSE_lightbox">MIT</a>)
-							<br>
-							Slick made by <a href="http://kenwheeler.github.io/slick" target="_blanc">Ken Wheeler</a> (<a href="license/LICENSE_slick">MIT</a>)
-						</div> -->
-						<div class="contact-container">
-							<div class="contact-info">
-								<div class="box">
-									<div class="icon">
-										<img src="img/placeholder.svg">
-									</div>
-									<div class="text">
-										<h3>Adress</h3>
-										<p>56 avenue maréchal Gallieni,<br>06400,<br>CANNES</p>
-									</div>
-								</div>
-								<div class="box">
-									<div class="icon">
-										<img src="img/telephone.svg">
-									</div>
-									<div class="text">
-										<h3>Phone</h3>
-										<p>04 93 39 51 59</p>
-									</div>
-								</div>
-								<div class="box">
-									<div class="icon">
-										<img src="img/mail.svg">
-									</div>
-									<div class="text">
-										<h3>Email</h3>
-										<p>contact@can-sport.fr</p>
-									</div>
-								</div>
-							</div>
-							<div class="contact-form">
-								<form>
-									<h3>Send Message</h3>
-									<div class="inputBox">
-										<input type="text" name="" required="required">
-										<span>Full Name</span>
-									</div>
-									<div class="inputBox">
-										<input type="text" name="" required="required">
-										<span>Email</span>
-									</div>
-									<div class="inputBox">
-										<textarea required="required"></textarea>
-										<span>Type your Message...</span>
-									</div>
-									<div class="inputBox">
-										<input type="submit" name="" value="send">
-									</div>
-								</form>
-							</div>
-						</div>
-					</article>
-				</section>
-			</div>
-		</footer>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="slick/slick.min.js"></script>
-		<script type="text/javascript" src="js/slider.js"></script>
-		<script type="text/javascript" src="js/lightbox.js"></script>
-	</body>
-</html>
